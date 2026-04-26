@@ -1,9 +1,9 @@
-import StandaloneShell from '@/components/StandaloneShell';
+import FreeShell from '@/components/FreeShell';
 
 export const metadata = {
-  title: 'Studio — Open Generative AI',
+  title: 'brokestudios',
 };
 
 export default function StudioPage() {
-  return <StandaloneShell />;
+  return <FreeShell />;
 }
